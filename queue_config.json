@@ -1,0 +1,15 @@
+  
+{
+  "Message": [
+    {
+      "QueueName": "InitFoodPlanner",
+      "Active": true,
+      "NumRetry": 0
+    },
+    {
+      "QueueName": "InsertUserPlanner",
+      "Active": true,
+      "NumRetry": 0
+    }
+  ]
+}
