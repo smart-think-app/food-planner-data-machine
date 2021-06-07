@@ -1,8 +1,8 @@
-  
+
 {
   "Message": [
     {
-      "QueueName": "InsertUserPlanner",
+      "QueueName": "InitModeDataMachine",
       "Active": true,
       "NumRetry": 0
     }

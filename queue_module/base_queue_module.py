@@ -15,7 +15,7 @@ class DefaultConsumerModel(AbstractConsumerModel):
 
 
 def switch_consumer(queue_name, channel):
-    if queue_name == QueueNameEnum.InitFoodPlanner.value:
+    if queue_name == QueueNameEnum.InitModeDataMachine.value:
         mq_manager = MQChannelManager(channel)
         return InitFoodPlannerConsumer(queue_name, mq_manager)
     return DefaultConsumerModel("")
